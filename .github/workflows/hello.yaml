@@ -2,12 +2,8 @@ name: hello-world
 on:
   push:
     paths:
-    - '!README.md'
-    - '!docs/**'
-    - '**.js'
     branches: 
-    - main
-    - develop
+  workflows_dispatch:
 jobs:
   say-hello:
     runs-on: ubuntu-latest
