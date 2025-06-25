@@ -6,5 +6,6 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "TODAY=$(date)" >> $GITHUB_ENV
       - run: echo "Hello, world!"
-      - run: echo "This is a GitHub Actions workflow example."
+      - run: echo "Today is $TODAY"
