@@ -1,4 +1,4 @@
-Static Website Example NhatHM4
+Static Website Example NhatHM4111
 ----------------------
 
 To be used with Cloud Academy labs.
