@@ -3,7 +3,7 @@ on:
   push:
     paths:
     branches: 
-  workflows_dispatch:
+  workflow_dispatch:
 jobs:
   say-hello:
     runs-on: ubuntu-latest
